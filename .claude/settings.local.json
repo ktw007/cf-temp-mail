@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "WebSearch",
+      "Bash(chmod:*)",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "WebFetch(domain:developers.cloudflare.com)",
+      "Read(//e/**)",
+      "Bash(del:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "context7"
+  ]
+}
