@@ -1,0 +1,28 @@
+# 自动检测文本文件并标准化行尾符
+* text=auto
+
+# Shell 脚本强制使用 LF（Linux/macOS 兼容）
+*.sh text eol=lf
+
+# Windows 脚本强制使用 CRLF
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Python 文件使用 LF（跨平台最佳实践）
+*.py text eol=lf
+
+# 配置和文档文件使用 LF
+*.json text eol=lf
+*.md text eol=lf
+.env* text eol=lf
+.gitignore text eol=lf
+
+# 二进制文件不转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.tar binary
+*.gz binary

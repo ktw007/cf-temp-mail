@@ -11,7 +11,11 @@
       "Read(//e/**)",
       "Bash(del:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n初始提交：Cloudflare 临时邮箱自动生成工具\n\n✨ 核心功能：\n- 支持纯随机邮箱生成（8位小写字母）\n- 支持带前缀的随机邮箱生成\n- 支持编号邮箱生成（如：ul0001、ul9977）\n- 支持批量创建（连续编号或随机）\n- 支持批量删除（通配符模式）\n- 自动分页支持（最多5000条记录）\n\n🔧 技术特点：\n- 零外部依赖，仅使用 Python 标准库\n- 跨平台支持（Linux/macOS/Windows）\n- 直接调用 Cloudflare REST API\n- 使用 API Token 持久化认证\n\n📦 包含文件：\n- temp_email.py - 核心 Python 脚本\n- temp-email.sh - Linux/macOS Shell 包装器\n- temp-email.ps1 - Windows PowerShell 包装器\n- temp-email.bat - Windows CMD 包装器\n- test_numbered_email.py - 编号功能测试脚本\n- README.md - 完整使用文档\n- CLAUDE.md - Claude Code 项目指南\n- 编号邮箱使用说明.md - 编号功能详细说明\n- Cloudflare_Email_Routing_API_规则.md - API 调用规则文档\n\n🎯 适用场景：\n- 注册临时账号\n- 接收验证邮件\n- 批量邮箱管理\n- 隐私保护\n\n基于 Cloudflare Email Routing API 构建\nEOF\n)\")",
+      "Bash(git remote:*)",
+      "Bash(git config:*)",
+      "Bash(git rm:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
