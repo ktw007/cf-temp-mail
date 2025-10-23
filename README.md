@@ -228,15 +228,6 @@ EMAIL_DOMAIN=yourdomain.com                       # 您的域名
 #EMAIL_PREFIX=temp
 ```
 
-**配置示例**：
-```bash
-CLOUDFLARE_API_TOKEN=A-JgYzgaYHtpEuKnvKnKi5bcKZ16i1uCl-1QBYGW
-CLOUDFLARE_ZONE_ID=1c9a06ed282ed8eaadee65dd77200a68
-CLOUDFLARE_ACCOUNT_ID=8bad9a137f7e5a53a9234e8bdc5032d9
-FORWARD_TO_EMAIL=203320879@qq.com
-EMAIL_DOMAIN=ktwi.online
-```
-
 ---
 
 ## 🎯 使用方法
